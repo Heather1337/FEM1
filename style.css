@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 0 10px;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+
+.article-title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+}
+.article-quarter {
+  border: 1px solid black;
+  width: 25%
+
+}
+
+.article-half {
+    width: 50%;
+    border: 1px solid black;
+}
+
+
+.title {
+    font-family: "Snell Roundhand";
+    font-weight: normal;
+    font-size: 60px;
+    text-align: center;
+}
+
+.articles-top {
+  display: flex;
+}
+
+.articles-bottom {
+  display: flex;
+}
+
+.article-img {
+    padding: 0 10px;
+    width: 100%
+}
+
+.column-section {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 75%;
+}
+
+.item1 {
+    background-color: #ffeaa7;
+    height: 20%;
+    color: grey;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px 20px;
+}
+
+.item2 {
+    background-color: #81ecec;
+    height: 20%;
+    color: grey;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px 20px;
+
+}
+
+.item3{
+  background-color: #55efc4;
+  height: 20%;
+  color: grey;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px 20px;
+
+}
+
+.item4 {
+  background-color: #74b9ff;
+  height: 20%;
+  color: grey;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px 20px;
+}
+
+.item5 {
+  background-color: #a29bfe;
+  height: 20%;
+  color: grey;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px 20px;
+}
